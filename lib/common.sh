@@ -120,7 +120,7 @@ export BMOPATH="${BMOPATH:-${M3PATH}/baremetal-operator}"
 export RUN_LOCAL_IRONIC_SCRIPT="${BMOPATH}/tools/run_local_ironic.sh"
 
 export CAPM3PATH="${CAPM3PATH:-${M3PATH}/cluster-api-provider-metal3}"
-export CAPM3_BASE_URL="${CAPM3_BASE_URL:-metal3-io/cluster-api-provider-metal3}"
+export CAPM3_BASE_URL="${CAPM3_BASE_URL:-maodeyi/cluster-api-provider-metal3}"
 export CAPM3REPO="${CAPM3REPO:-https://github.com/${CAPM3_BASE_URL}}"
 
 export IPAMPATH="${IPAMPATH:-${M3PATH}/ip-address-manager}"
